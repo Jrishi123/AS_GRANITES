@@ -24,8 +24,8 @@ h2{font-size:32px;text-align:center}h2+.sub{text-align:center;color:var(--mut);m
 .grid{display:grid;gap:22px}.g2{grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}.g3{grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:24px}
 .alt .card{background:var(--bg)}
-.sw{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:18px}
-.sw figure{margin:0;text-align:center;font-size:14px}.sw img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px;border:1px solid var(--line)}
+.sw{display:grid;grid-template-columns:repeat(3,1fr);gap:26px;max-width:980px;margin:auto}@media(max-width:600px){.sw{grid-template-columns:repeat(2,1fr);gap:16px}}
+.sw figure{margin:0;text-align:center;font-size:17px;font-weight:600}.sw img{width:100%;aspect-ratio:3/4;object-fit:cover;border-radius:8px;border:1px solid var(--line)}
 .qc b{color:var(--gold);display:block;letter-spacing:1px;font-size:13px}
 .tabs{text-align:center;margin-bottom:20px}.tabs button{background:none;border:1px solid var(--line);color:var(--tx);padding:7px 18px;border-radius:30px;cursor:pointer;margin:3px}
 .tabs button.on{background:var(--brand);color:#fff;border-color:var(--brand)}
